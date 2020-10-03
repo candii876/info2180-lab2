@@ -1,0 +1,63 @@
+.container{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 400px 60% 3%;
+    grid-gap: 20px;
+    font-size: 18px;
+    color: #2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+header{
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row: 1;
+    grid-column: 1 / 3;
+    /* flex-wrap: wrap;
+    flex-flow: wrap; */
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 32px;
+    color: #48BB78;
+}
+
+img[src="camel.jpg"]{
+    border-radius: 50%;
+    padding: 1%;
+    width: 200px;
+    height: 200px;
+}
+
+img[src="snake2.JPG"]{
+    float: left;
+    padding: 20px;
+    height: 150px;
+    width: 200px;
+}
+
+img[src="falls2.JPG"]{
+    float: right;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#date{
+    color: #718096;
+}
+
+footer{
+    background-color: #2C5282;
+    color: #FFFFFF;
+    grid-row: 3;
+    grid-column: 1 / 3;
+}
